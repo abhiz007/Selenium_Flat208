@@ -14,6 +14,7 @@ public class BrowserLaunch {
 		//DesiredCapabilities capability = DesiredCapabilities.firefox();
 		WebDriver driver;
 		//driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"),capability);
+		// just like that
 		driver = new FirefoxDriver();
 		driver.get(url);
 		driver.getCurrentUrl();
